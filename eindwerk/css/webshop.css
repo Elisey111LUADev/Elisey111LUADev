@@ -1,0 +1,80 @@
+body {
+  position: relative;
+  min-height: 100vh; /* Zorgt ervoor dat de pagina minimaal de volledige schermhoogte heeft */
+  margin: 0;
+  padding-bottom: 60px; /* Zorgt ervoor dat de content niet overlapt met de footer */
+  background-color: rgb(48, 48, 48);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0dcaf0;
+  color: white;
+    
+  padding: 20px;
+  font-size: 14px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: #0dcaf0!important; 
+  font-size: 16px;
+}
+
+
+/* Stijl voor de info en waarschuwing vakken */
+.centered-box {
+  background-color: rgba(52, 58, 64, 0.8); 
+  border: 2px solid #0dcaf0; 
+  padding: 20px;
+  border-radius: 12px; 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); 
+  max-width: 600px;
+  margin: 40px auto; 
+  text-align: center; 
+  color: #fff; 
+}
+
+/* Stijl voor kopteksten binnen info-box */
+.centered-box h2 {
+  color: #0dcaf0; 
+  margin-bottom: 15px;
+  font-size: 24px; 
+}
+
+/* Stijl voor tekst binnen info-box */
+.centered-box p {
+  font-size: 16px; 
+  line-height: 1.6;
+  color: #ffffff; 
+}
+
+
+
+/* Voor de footer (optioneel, afhankelijk van je footer-stijl) */
+footer {
+  background-color: #0dcaf0;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+
+html {
+  scroll-behavior: smooth; 
+}
